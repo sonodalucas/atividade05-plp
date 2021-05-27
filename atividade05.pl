@@ -30,13 +30,9 @@ jedi(anakin).
 
 darkside(A):-
     se_tornou(A, B),
-    sith(C),
-    B\=C,
-    mestre(C, B),
-    jedi(D),
-    A\=D,
-    mestre(D, A).
-
+    sith(B),
+    jedi(A).
+    
 matou(obi_wan, darth_maul).
 matou(darth_vader, obi_wan).
 matou(luke, darth_vader).
